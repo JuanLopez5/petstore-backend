@@ -110,7 +110,8 @@ jobs:
       - name: Build & push Docker image
         uses: mr-smithers-excellent/docker-build-push@v6
         with:
-          image: juanmilopez05/petstore-backend
+          image: juanmilopez05/petstore_backend
+
           tags: latest
           registry: docker.io
           dockerfile: Dockerfile
