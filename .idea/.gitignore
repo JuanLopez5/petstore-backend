@@ -7,4 +7,5 @@
 /dataSources/
 /dataSources.local.xml
 
-application.properties
+# Ocultar configuraciones sensibles
+src/main/resources/application.properties
