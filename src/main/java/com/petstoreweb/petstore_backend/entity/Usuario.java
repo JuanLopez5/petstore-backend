@@ -24,7 +24,7 @@ public class Usuario {
     @Column(name = "rol_usuario", nullable = false)
     private String rol;
 
-    @Column(name = "estado", nullable = false)
+    @Column(name = "estado_integrante", nullable = false)
     private boolean estado;
 
 
