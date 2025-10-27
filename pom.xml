@@ -125,6 +125,7 @@
                 </executions>
             </plugin>
         </plugins>
+        <finalName>petstore-backend</finalName>
 	</build>
 
 </project>
